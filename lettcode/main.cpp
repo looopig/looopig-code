@@ -1,7 +1,8 @@
-#include "1671.cpp"
+#include "1962.cpp"
 
 int main() {
-  vector<int> nums({1, 3, 1});
+  int k = 2;
+  vector<int> piles({5, 4, 9});
   Solution a;
-  a.minimumMountainRemovals(nums);
+  a.minStoneSum(piles, k);
 }
