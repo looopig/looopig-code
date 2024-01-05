@@ -1,8 +1,7 @@
-#include "1962.cpp"
+#include "1944.cpp"
 
 int main() {
-  int k = 2;
-  vector<int> piles({5, 4, 9});
+  vector<int> heights({5, 1, 2, 3, 10});
   Solution a;
-  a.minStoneSum(piles, k);
+  a.canSeePersonsCount(heights);
 }
